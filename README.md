@@ -1,10 +1,13 @@
 # 🌟 TerapIA - Sua Assistente Emocional Inteligente
 
+
+
 <div align="center">
   <img src="assets/logoterapIA.png" alt="TerapIA Logo" width="200"/>
   
   *Transformando o cuidado emocional através da tecnologia*
 </div>
+> 🖱️ Acesse o projeto online aqui: (https://profvictor.github.io/terapIA/)
 
 ## 📋 Índice
 - [Sobre o Projeto](#-sobre-o-projeto)
