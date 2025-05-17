@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerapIA - Sua Assistente Emocional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Botão do Menu -->
+        <button id="menu-toggle" class="menu-toggle material-icons" aria-label="Menu">menu</button>
+        
+        <!-- Coluna da Esquerda -->
+        <div class="sidebar">
+            <div class="logo" id="logo">
+                <img src="assets/logoterapIA.png" alt="TerapIA Logo">
+            </div>
+            <nav class="menu">
+                <button class="menu-item" id="chat-btn">
+                    <span class="material-icons">chat</span>
+                    Chat
+                </button>
+                <button class="menu-item" id="diario-btn">
+                    <span class="material-icons">edit_note</span>
+                    Diário
+                </button>
+                <button class="menu-item" id="sentimentos-btn">
+                    <span class="material-icons">mood</span>
+                    Como me sinto
+                </button>
+                <button class="menu-item" id="respirar-btn">
+                    <span class="material-icons">air</span>
+                    Respirar
+                </button>
+            </nav>
+        </div>
+
+        <!-- Área Principal -->
+        <div class="main-content">
+            <!-- Interface do Chat -->
+            <div class="interface" id="chat-interface">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="powered-by">
+                            <img src="assets/powered.png" alt="Powered by" class="powered-logo">
+                        </div>
+                        <button id="toggle-leitura" class="toggle-button material-icons" title="Ativar/Desativar leitura">
+                            volume_off
+                        </button>
+                    </div>
+                    <div class="chat-messages" id="chat-messages"></div>
+                    <div class="chat-input">
+                        <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+                        <button id="send-btn">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interface do Diário -->
+            <div class="interface hidden" id="diario-interface">
+                <div class="diario-container">
+                    <input type="date" id="diario-data">
+                    <textarea id="diario-texto" placeholder="Como foi seu dia?"></textarea>
+                    <button id="salvar-diario">Salvar</button>
+                </div>
+            </div>
+
+            <!-- Interface de Sentimentos -->
+            <div class="interface hidden" id="sentimentos-interface">
+                <div class="sentimentos-container">
+                    <input type="date" id="sentimento-data">
+                    <div class="escala-sentimentos">
+                        <h3>Como você está se sentindo hoje?</h3>
+                        <div class="escala">
+                            <button class="nivel" data-nivel="0"><span class="icon">😢</span></button>
+                            <button class="nivel" data-nivel="1"><span class="icon">😕</span></button>
+                            <button class="nivel" data-nivel="2"><span class="icon">😐</span></button>
+                            <button class="nivel" data-nivel="3"><span class="icon">🙂</span></button>
+                            <button class="nivel" data-nivel="4"><span class="icon">😊</span></button>
+                            <button class="nivel" data-nivel="5"><span class="icon">😄</span></button>
+                        </div>
+                    </div>
+                    <button id="salvar-sentimento">Salvar</button>
+                </div>
+            </div>
+
+            <!-- Interface de Respiração -->
+            <div class="interface hidden" id="respirar-interface">
+                <div class="respirar-container">
+                    <div class="timer-circle">
+                        <div class="timer-text">
+                            <span id="timer-fase">Inspire</span>
+                            <span id="timer-contador">5</span>
+                        </div>
+                    </div>
+                    <button id="iniciar-respiracao">Iniciar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
