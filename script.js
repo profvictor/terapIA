@@ -130,7 +130,7 @@ function lerTexto(texto) {
     utteranceAtual = new SpeechSynthesisUtterance(textoLimpo);
     utteranceAtual.voice = vozSelecionada;
     utteranceAtual.lang = 'pt-BR';
-    utteranceAtual.rate = 1.2;
+    utteranceAtual.rate = 1.0;
     utteranceAtual.pitch = 1.0;
     
     // Quando a leitura terminar
