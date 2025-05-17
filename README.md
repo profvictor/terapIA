@@ -22,7 +22,11 @@
 
 ## 💡 Sobre o Projeto
 
-Utilizando as aulas da imersão da ALura, criei a TerapIA. Uma aplicação web inovadora que combina inteligência artificial com técnicas terapêuticas para oferecer suporte emocional acessível e eficaz. Desenvolvida com foco na experiência do usuário e privacidade, a TerapIA utiliza a poderosa API Gemini para fornecer respostas empáticas e personalizadas, ajudando usuários a gerenciar suas emoções e desenvolver resiliência emocional.
+Utilizando as aulas da imersão da ALura, criei a TerapIA. Uma aplicação web inovadora que combina inteligência artificial com técnicas terapêuticas para oferecer suporte emocional acessível e eficaz. Desenvolvida com foco na experiência do usuário e privacidade, a TerapIA utiliza a poderosa API Gemini para fornecer respostas empáticas e personalizadas, ajudando usuários a gerenciar suas emoções e desenvolver resiliência emocional. Ela foi treinada de forma que:
+- Não faz julgamentos ou críticas
+- Não faz diagnósticos
+- Não prescreve medicamentos
+- Encoraja o usuário a buscar ajuda profissional quando necessário
 
 ## ✨ Funcionalidades
 
