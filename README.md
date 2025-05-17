@@ -66,22 +66,22 @@ Utilizando as aulas da imersão da ALura, criei a TerapIA. Uma aplicação web i
 
 ### 💬 Chat Terapêutico
 <div align="center">
-  <img src="assets/screenshots/chat.png" alt="Interface do Chat" width="400"/>
+  <img src="assets/screenshots/chat.png" alt="Interface do Chat" width="1000"/>
 </div>
 
 ### 📔 Diário Pessoal
 <div align="center">
-  <img src="assets/screenshots/diario.png" alt="Interface do Diário" width="400"/>
+  <img src="assets/screenshots/diario.png" alt="Interface do Diário" width="1000"/>
 </div>
 
 ### 😊 Registro de Sentimentos
 <div align="center">
-  <img src="assets/screenshots/sentimentos.png" alt="Interface de Sentimentos" width="400"/>
+  <img src="assets/screenshots/sentimentos.png" alt="Interface de Sentimentos" width="1000"/>
 </div>
 
 ### 🧘‍♀️ Exercícios de Respiração
 <div align="center">
-  <img src="assets/screenshots/respirar.png" alt="Interface de Respiração" width="400"/>
+  <img src="assets/screenshots/respirar.png" alt="Interface de Respiração" width="1000"/>
 </div>
 
 
