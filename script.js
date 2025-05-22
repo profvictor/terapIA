@@ -1,5 +1,5 @@
 // Configuração da API Gemini
-const GEMINI_API_KEY = "AIzaSyBoKz2uRADTSjcH9_H7ZI50sDNXB_TlBYI";
+const GEMINI_API_KEY = "";
 const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent";
 
 // Elementos da interface
